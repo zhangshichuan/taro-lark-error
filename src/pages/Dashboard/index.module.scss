@@ -1,0 +1,48 @@
+.Dashboard {
+	background-color: #f9f9f9;
+	.bg {
+		width: 100%;
+		height: 200px;
+		background: url('../../assets/home-bg.png') no-repeat center center;
+		background-size: contain;
+	}
+	.todoDone {
+		padding: 0 30px;
+		margin-top: 16px;
+		display: flex;
+		justify-content: space-between;
+		.todo,
+		.done {
+			background: #fff;
+			position: relative;
+			width: 45%;
+			height: 160px;
+			border-radius: 23px;
+			box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+			.num {
+				position: absolute;
+				left: 40px;
+				top: 20px;
+				font-size: 56px;
+				color: #333;
+			}
+			.title {
+				position: absolute;
+				left: 40px;
+				top: 88px;
+				color: #999;
+				font-size: 28px;
+			}
+			.icon {
+				position: absolute;
+				top: 20px;
+				right: 30px;
+				width: 50px;
+			}
+		}
+	}
+	.todoList {
+		padding: 0 30px;
+		margin-top: 10px;
+	}
+}

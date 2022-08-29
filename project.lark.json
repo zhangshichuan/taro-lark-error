@@ -1,0 +1,13 @@
+{
+	"miniprogramRoot": "./",
+	"projectname": "vayne",
+	"description": "oa 新版飞书小程序",
+	"appid": "cli_a15522866678100b",
+	"setting": {
+		"es6": false,
+		"minified": false,
+		"postcss": false,
+		"urlCheck": true
+	},
+	"compileType": "miniprogram"
+}

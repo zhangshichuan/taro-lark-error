@@ -1,0 +1,37 @@
+.FormDataDetail {
+	width: 100%;
+	min-height: 600px;
+
+	.item {
+		width: 100%;
+		line-height: 80px;
+		font-size: 24px;
+		padding: 0 15px;
+		box-sizing: border-box;
+		border-bottom: 2px solid #eee;
+
+		.label {
+			width: 30%;
+			color: #999;
+			display: inline-block;
+		}
+		.text {
+			display: inline-block;
+			width: 70%;
+			color: #666;
+			text-align: right;
+		}
+		.list {
+			display: block;
+			width: 100%;
+			margin-top: 20px;
+		}
+		.file {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			font-size: 24px;
+			color: rgb(106, 115, 201);
+		}
+	}
+}
